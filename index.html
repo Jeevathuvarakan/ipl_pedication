@@ -1,0 +1,41 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3991a644-3915-4fa9-8437-9a5a32dc6762",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "<!DOCTYPE html>\n",
+    "<html>\n",
+    "<head>\n",
+    "    <title>IPL Winner Predictor</title>\n",
+    "</head>\n",
+    "<body>\n",
+    "    <h2>IPL Match Prediction</h2>\n",
+    "    <form action=\"/predict\" method=\"post\">\n",
+    "        Team 1: <input type=\"text\" name=\"team1\"><br><br>\n",
+    "        Team 2: <input type=\"text\" name=\"team2\"><br><br>\n",
+    "        Toss Winner: <input type=\"text\" name=\"toss\"><br><br>\n",
+    "        Venue: <input type=\"text\" name=\"venue\"><br><br>\n",
+    "        <input type=\"submit\" value=\"Predict\">\n",
+    "    </form>\n",
+    "    <h3>{{ prediction_text }}</h3>\n",
+    "</body>\n",
+    "</html>\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "",
+   "name": ""
+  },
+  "language_info": {
+   "name": ""
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
